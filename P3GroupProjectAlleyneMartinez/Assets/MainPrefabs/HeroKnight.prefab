@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 2954181336601895002}
   - component: {fileID: 8942925490989933264}
   - component: {fileID: 9117128348835321587}
+  - component: {fileID: 1092478779152031934}
   m_Layer: 0
   m_Name: HeroKnight
   m_TagString: Player
@@ -283,6 +284,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.73, y: 1.2}
   m_EdgeRadius: 0
+--- !u!114 &1092478779152031934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6323719953710832613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cd6f13d26a4f143bc351dd4b9f1bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 10
 --- !u!1 &7087049454815086010
 GameObject:
   m_ObjectHideFlags: 0
