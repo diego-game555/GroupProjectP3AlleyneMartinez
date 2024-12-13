@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
 
     public SpriteRenderer playerSr;
     public HeroKnight heroKnight;
+    public GameOver gameOver;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class PlayerHealth : MonoBehaviour
         {
             playerSr.enabled = false;
             heroKnight.enabled = false;
+            gameOver.Over();
         }
     }
 }
