@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int health;
     public int maxHealth;
+    public GameObject bricks;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            bricks.SetActive(false);
         }
     }
 }
